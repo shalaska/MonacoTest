@@ -14,6 +14,7 @@
 		7C851B162032D88000CA2D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C851B142032D88000CA2D34 /* LaunchScreen.storyboard */; };
 		7C851B212032D88000CA2D34 /* MonacoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C851B202032D88000CA2D34 /* MonacoTestTests.swift */; };
 		7C851B2C2032D88000CA2D34 /* MonacoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C851B2B2032D88000CA2D34 /* MonacoTestUITests.swift */; };
+		7C851B3A2032D89700CA2D34 /* RandomizlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C851B392032D89700CA2D34 /* RandomizlyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7C851B272032D88000CA2D34 /* MonacoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonacoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C851B2B2032D88000CA2D34 /* MonacoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonacoTestUITests.swift; sourceTree = "<group>"; };
 		7C851B2D2032D88000CA2D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C851B392032D89700CA2D34 /* RandomizlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizlyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7C851B0B2032D88000CA2D34 /* AppDelegate.swift */,
 				7C851B0D2032D88000CA2D34 /* ViewController.swift */,
+				7C851B392032D89700CA2D34 /* RandomizlyModel.swift */,
 				7C851B0F2032D88000CA2D34 /* Main.storyboard */,
 				7C851B122032D88000CA2D34 /* Assets.xcassets */,
 				7C851B142032D88000CA2D34 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				7C851B0E2032D88000CA2D34 /* ViewController.swift in Sources */,
 				7C851B0C2032D88000CA2D34 /* AppDelegate.swift in Sources */,
+				7C851B3A2032D89700CA2D34 /* RandomizlyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
