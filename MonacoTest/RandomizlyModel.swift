@@ -10,4 +10,8 @@ class RandomizlyModel {
     func newNumber() {
         self.number = Int(arc4random_uniform(6) + 1 )
     }
+    
+    func guess(_ guess: Int) -> Bool {
+        return self.number == guess
+    }
 }
