@@ -1,8 +1,8 @@
 import Foundation
 
 class RandomizlyModel {
-    var number = 0
-    var tries = 0
+    private var number = 0
+    private(set) var tries = 0
     
     init() {
         self.newNumber()
