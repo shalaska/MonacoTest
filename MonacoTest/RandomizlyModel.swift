@@ -1,5 +1,11 @@
 import Foundation
 
+enum GuessAnswer {
+    case correct
+    case tooLow
+    case tooHigh
+}
+
 class RandomizlyModel {
     private var number = 0
     private(set) var tries = 0
